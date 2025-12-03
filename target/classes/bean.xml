@@ -22,7 +22,10 @@
 	<bean id="accountManagement" class="com.obs.AccountManagement">
 			<constructor-arg name="account" ref="account"/>
 	 </bean>
-	<bean id="account" class="com.obs.Account">
+	 <bean id="userManagement" class="com.obs.UserManagement">
+	 		<constructor-arg name="user" ref="user"/>
+	 </bean>
+	<bean id="account" class="com.obs.Account"></bean>
+	<bean id="user" class="com.obs.User"></bean>
 	
-	</bean>
 </beans>
